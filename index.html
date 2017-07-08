@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stress Writer</title>
+    <script src="https://cdn.jsdelivr.net/medium-editor/latest/js/medium-editor.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <h1>Sress Writer</h1>
+        <div class="editable"></div>
+        <script>
+            var editor = new MediumEditor('.editable'),
+                cssLink = document.getElementById('medium-editor-theme');
+
+            document.getElementById('sel-themes').addEventListener('change', function () {
+                cssLink.href = 'bower_components/medium-editor/dist/css/' + this.value + '.css';
+            });
+
+            document.getElementById('version').innerHTML = 'This demo uses MediumEditor v' + MediumEditor.version;
+        </script>
+</body>
