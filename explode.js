@@ -1,12 +1,12 @@
-var initialText = $(".editable").text();
+var initialText = $(".splitText").text();
 var type = splitLetters(initialText);
 
 $(document).ready(function(){
 $("#letters").on('click',function(){
 
 
-		$(".editable").empty();
-		$(".editable").html(type);
+		$(".splitText").empty();
+		$(".splitText").html(type);
 		explodeLetters();
 	});
 
@@ -20,12 +20,12 @@ function explodeLetters(){
 
 	threeDTimeline = new TimelineLite({align:'start'});
 
-	var children = $('.editable').children().length;
+	var children = $('.splitText').children().length;
 	for(var i=0;i<children;i++){
 
          for(var i=0;i<children;i++){
 
-         	var element = $(".editable").children().eq(i);
+         	var element = $(".splitText").children().eq(i);
          	var pos = element.offset();
          	element.css({'left':pos.left,'top':pos.top});
 
