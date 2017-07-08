@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
     line-height: 30px;
 }
@@ -36,28 +36,35 @@ body {
 }
 
 #container {
-    width: 960px;
+    width: 700px;
     margin: 90px auto;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
     letter-spacing: -2px;
-    border-bottom: 1px solid #dbdbdb;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  letter-spacing: -2px;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 h3 {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 21px;
+    line-height: 31px;
 }
 
 h4 {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 p {
@@ -93,7 +100,7 @@ blockquote {
 }
 
 #container {
-    width: 960px;
+    width: 700px;
     margin: 30px auto;
 }
 
@@ -121,11 +128,28 @@ blockquote {
     width: 30%;
     margin: 10px 1%;
 }
+.nav {
+    text-align: center;
+    font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+	  font-size: 12px;
+}
+.button {
+	  color: #fff;
+	  text-decoration: none;
+	  margin-right: 10px;
 
-.github-link {
-    z-index: 100;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 0;
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  border-radius: 5px;
+
+	  -webkit-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	  -moz-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	  box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+
+	  background: #1c1c1c; /* #191919 */
+	  border: 1px solid #141414;
+	  padding: 10px 25px;
+}
+.button:active, .button:focus {
+    box-shadow: 0 0 0 transparent inset;
 }
