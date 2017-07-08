@@ -9,16 +9,14 @@
 </head>
 <body>
     <div id="container">
-        <h1>Sress Writer</h1>
+        <h1>Write &amp; Destroy</h1>
+        <h2>Therapy through ephemeral journaling</h2>
         <div class="editable"></div>
         <script>
             var editor = new MediumEditor('.editable'),
                 cssLink = document.getElementById('medium-editor-theme');
-
-            document.getElementById('sel-themes').addEventListener('change', function () {
-                cssLink.href = 'bower_components/medium-editor/dist/css/' + this.value + '.css';
-            });
-
-            document.getElementById('version').innerHTML = 'This demo uses MediumEditor v' + MediumEditor.version;
         </script>
+        <div class="nav">
+        <a class="button" href="#">Shred</a> <a class="button" href="#">Burn</a> <a class="button" href="#">Float away</a>
+        </div>
 </body>
