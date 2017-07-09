@@ -2,6 +2,8 @@
 
 [Write & Destroy](http://writeanddestroy.com) is a one page web app that allows users to engage in [journal therapy](https://en.wikipedia.org/wiki/Journal_therapy).
 
+> I've been using writing as therapy for the last little while. It's been really effective. But about 95% of the time, I don't want to keep the writing. I just want to "get it out of my system" and then destroy it.
+
 Watch the video: https://youtu.be/MhH5vHQTwNo
 
 Many therapists recommend that their patients write out their thoughts, feelings, and experiences on paper. These could include past regrets, trauma, or grief that they need to express.
