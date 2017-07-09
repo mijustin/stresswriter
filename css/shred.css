@@ -1,0 +1,258 @@
+.animate-shredded-paper {
+	-webkit-animation: shredGo 3.5s 1 forwards;
+	animation: shredGo 3.5s 1 forwards;
+}
+
+.animate-content {
+	animation: cover 2.6s 1 forwards 1s;
+	-webkit-animation: cover 2.2s 1 forwards 1s;
+}
+
+.shredded-holder-animate {
+	animation: shredShake 0.12s 26 0.5s;
+	-webkit-animation: shredShake 0.12s 26 0.5s;
+}
+
+.shredded-paper-p-animate {
+	animation: Animation1 3.6s 1 forwards 1s;
+	-webkit-animation: Animation1 3.6s 1 forwards 1s;
+}
+
+.shredded-paper-q-animate {
+	animation: Animation2 3.6s 1 forwards 1s;
+	-webkit-animation: Animation2 3.6s 1 forwards 1s;
+}
+
+.shredded-paper {
+	width: 100%;
+	min-height: 220px;
+	position: absolute;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+	left: 0;
+	top: 160px;
+	z-index: 5;
+
+}
+
+.shredded-paper > div[class^='part-'] {
+	height: 100%;
+	min-height: 180px;
+	width: 98%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: absolute;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	z-index: 99;
+	top: 20px;
+	left: 3%;
+}
+
+.shredded-paper > .content {
+	background: #fff;
+	height: 100%;
+	min-height: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	position: absolute;
+	-webkit-transform: translateZ(180px) scale(0.82);
+	top: 0;
+	z-index: 9999;
+}
+
+.shredded-paper .part-1 {
+	clip-path: inset(0 90% 0 0%);
+	-webkit-clip-path: inset(0 90% 0 0%);
+	background: #fff;
+	background: -webkit-radial-gradient(32% 97%, 29% 62%, rgba(0,0,0,0.3), rgba(255, 255, 255, 0)) #fff;
+	background: radial-gradient(circle at 64% 0% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.shredded-paper .part-2 {
+	clip-path: inset(0 80% 0 10%);
+	-webkit-clip-path: inset(0 80% 0 10%);
+	background: #fff;
+	background: -webkit-radial-gradient(28% 11%, 16% 62%, rgba(0,0,0,0.3), rgba(255,255,255,0)) #fff;
+	background: radial-gradient(circle at 109% 0% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.shredded-paper .part-3 {
+	clip-path: inset(0 70% 0 20%);
+	-webkit-clip-path: inset(0 70% 0 20%);
+	background: #fff;
+	background: -webkit-radial-gradient(12% 88%, 23% 62%, rgba(0,0,0,0.3), rgba(255,255,255,0)) #fff;
+	background: radial-gradient(circle at 167% 173% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.shredded-paper .part-4 {
+	clip-path: inset(0 60% 0 30%);
+	-webkit-clip-path: inset(0 60% 0 30%);
+	background: #fff;
+	background: -webkit-radial-gradient(73% 9%, 65% 52%, rgba(0,0,0,0.3), rgba(255, 255, 255, 0)) #fff;
+	background: radial-gradient(circle at 118% -54% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.shredded-paper .part-5 {
+	clip-path: inset(0 50% 0 40%);
+	-webkit-clip-path: inset(0 50% 0 40%);
+	background: #fff;
+	background: -webkit-radial-gradient(23% 97%, 29% 62%, rgba(0,0,0,0.3), rgba(255,255,255,0)), -webkit-radial-gradient(72% 20%, 29% 62%, rgba(0,0,0,0.3), rgba(255,255,255,0)) #fff;
+	background: radial-gradient(circle at 127% 57% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.shredded-paper .part-6 {
+	clip-path: inset(0 40% 0 50%);
+	-webkit-clip-path: inset(0 40% 0 50%);
+	background: #fff;
+	background: -webkit-radial-gradient(85% 97%, 46% 57%, rgba(0,0,0,0.3), rgba(255, 255, 255, 0)) #FFF;
+	background: radial-gradient(circle at 116% -103% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.shredded-paper .part-7 {
+	clip-path: inset(0 30% 0 60%);
+	-webkit-clip-path: inset(0 30% 0 60%);
+	background: #fff;
+	background: -webkit-radial-gradient(85% 24%, 29% 62%, rgba(0,0,0,0.3), rgba(255,255,255,0)) #fff;
+	background: radial-gradient(circle at 155% 143% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.shredded-paper .part-8 {
+	clip-path: inset(0 20% 0 70%);
+	-webkit-clip-path: inset(0 20% 0 70%);
+	background: #fff;
+	background: -webkit-radial-gradient(104% 93%, 46% 52%, rgba(0,0,0,0.3), rgba(255, 255, 255, 0)) #FFF;
+	background: radial-gradient(circle at 241% 154% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.shredded-paper .part-9 {
+	clip-path: inset(0 10% 0 80%);
+	-webkit-clip-path: inset(0 10% 0 80%);
+	background: #fff;
+	background: -webkit-radial-gradient(39% 18%, 73% 52%, rgba(0,0,0,0.3), rgba(255, 255, 255, 0)) #FFF;
+	background: radial-gradient(circle at 170% -219% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+.shredded-paper .part-10 {
+	clip-path: inset(0 0% 0 90%);
+	-webkit-clip-path: inset(0 0% 0 90%);
+	background: #fff;
+	background: -webkit-radial-gradient(77% 97%, 29% 62%, rgba(0,0,0,0.3), rgba(255,255,255,0)) #fff;
+	background: radial-gradient(circle at 217% 150% , rgb(134, 134, 134), rgba(255, 255, 255, 0)) repeat scroll 0% 0% rgb(255, 255, 255);
+}
+
+.shredder-holder {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.shredder {
+	font-weight: bold;
+	font-size: 1.7em;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: absolute;
+	background: #FF0012;
+	width: 120%;
+  left: -10%; right: -10%;
+	border-radius: 2px;
+	height: 100px;
+	z-index: 9999999;
+	background: black;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.24);
+	text-align: center;
+	color: #FFF;
+  margin-top: 20px;
+}
+
+.shred-me {
+	font-weight: bold;
+	background: #61BAFF;
+	color: #FFF;
+	cursor: pointer;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 18px 10px;
+	font-size: 1.5em;
+	position: absolute;
+	top: 236px;
+}
+
+.shred-me:hover {
+	background: rgb(30, 112, 176);
+}
+
+.shred-me:active {
+	box-shadow: inset 0 2px 10px rgba(0,0,0,0.3);
+}
+
+@-webkit-keyframes shredGo {
+	10% { top: 120px; }
+	12% { top: 120px; }
+	30% { top: 120px; }
+	32% { top: 145px; }
+	60% { top: 320px; }
+	62% { top: 315px; }
+	68% { top: 380px; }
+	100% { top: 400px; }
+}
+
+@keyframes shredGo {
+	10% { top: 120px; }
+	12% { top: 120px; }
+	30% { top: 120px; }
+	32% { top: 145px; }
+	60% { top: 320px; }
+	62% { top: 315px; }
+	68% { top: 380px; }
+	100% { top: 400px; }
+}
+
+@-webkit-keyframes shredShake {
+	50% { top: 0; }
+	100% { top: 2px; }
+}
+
+@keyframes shredShake {
+	50% { top: 0; }
+	100% { top: 2px; }
+}
+
+@-webkit-keyframes cover {
+	30% { top: -25px; }
+	80% { height: 25px; }
+	100% { height: 0; top: -25px; }
+}
+
+@keyframes cover {
+	30% { top: -25px; }
+	80% { height: 25px; }
+	100% { height: 0; top: -25px; }
+}
+
+@keyframes Animation1 {
+	20% { transform: scaleY(1.1) rotateX(5deg); min-height: 410px; }
+	50% { transform: scaleY(1.1) rotateX(-5deg); top: 0; }
+	90% { transform: scaleY(1.1) rotateX(10deg); top: 400px; }
+	100% { transform: scaleY(1.1) rotateX(10deg); top: 1200px; }
+}
+
+@-webkit-keyframes Animation1 {
+	20% { -webkit-transform: scaleY(1.1) rotateX(5deg); min-height: 410px; }
+	50% { -webkit-transform: scaleY(1.1) rotateX(-5deg); top: 0; }
+	90% { -webkit-transform: scaleY(1.1) rotateX(10deg); top: 400px; }
+	100% { -webkit-transform: scaleY(1.1) rotateX(10deg); top: 1200px; }
+}
+
+@keyframes Animation2 {
+	20% { transform: scaleY(1.1) rotateX(-5deg); min-height: 400px; }
+	50% { transform: scaleY(1.1) rotateX(-5deg); top: 0; }
+	90% { transform: scaleY(1.1) rotateX(-10deg); top: 400px; }
+	100% { transform: scaleY(1.1) rotateX(-10deg); top: 1200px; }
+}
+
+@-webkit-keyframes Animation2 {
+	20% { -webkit-transform: scaleY(1.1) rotateX(-5deg); min-height: 400px; }
+	50% { -webkit-transform: scaleY(1.1) rotateX(-5deg); top: 0; }
+	90% { -webkit-transform: scaleY(1.1) rotateX(-10deg); top: 400px; }
+	100% { -webkit-transform: scaleY(1.1) rotateX(-10deg); top: 1200px; }
+}
