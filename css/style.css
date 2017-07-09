@@ -69,6 +69,7 @@ blockquote {
 #container {
     width: 700px;
     margin: 30px auto;
+    position: relative;
 }
 
 .editable,
