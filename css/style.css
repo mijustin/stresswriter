@@ -157,5 +157,7 @@ footer {
   text-align: center;
   font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
   font-size: 10px;
-  color: #eee;
+  color: #666;
+  margin-top: 40px;
+  padding-top: 40px;
 }
