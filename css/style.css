@@ -74,6 +74,7 @@ blockquote {
 #container {
   width: 800px;
   margin: 30px auto;
+  position: relative;
 }
 
 .editable, .secondEditable {
@@ -202,6 +203,6 @@ footer {
   font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
   font-size: 10px;
   color: #666;
-  margin-top: 40px;
+  margin: 1rem auto;
   padding-top: 40px;
 }
