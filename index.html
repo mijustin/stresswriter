@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Write &amp; Destroy</title>
-    <script src="https://cdn.jsdelivr.net/medium-editor/latest/js/medium-editor.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=0" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=0" sizes="16x16" />
+    <script src="//cdn.jsdelivr.net/medium-editor/latest/js/medium-editor.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -20,11 +22,19 @@
 <body>
     <div id="container">
         <h1>Write &amp; Destroy</h1>
+<<<<<<< HEAD
         <p align="center"><em>Therapy through ephemeral journaling</em></p>
+=======
+        <h2>Therapy through ephemeral journaling.</h2>
+>>>>>>> master
         <div class="editable"></div>
         <script>
-            var editor = new MediumEditor('.editable'),
-                cssLink = document.getElementById('medium-editor-theme');
+          document.onreadystatechange = function () {
+            if (document.readyState === "interactive") {
+              var editor = new MediumEditor('.editable'),
+              cssLink = document.getElementById('medium-editor-theme');
+            }
+          }
         </script>
         <div class="nav">
         <a class="button" href="http://inserthtml.com/demos/javascript/explode/">Explode</a>
@@ -33,7 +43,12 @@
         <a class="button" href="#">Float away</a>
     </div>
     <footer>
+<<<<<<< HEAD
     A project by <a href="https://twitter.com/mijustin">@mijustin</a>, <a href="https://twitter.com/micahbrich">@micahbrich</a> and <a href="https://github.com/mijustin/stresswriter">you</a>?
+=======
+    A project by <a href="https://twitter.com/mijustin">@mijustin</a> and <a href="https://twitter.com/micahbrich">@micahbrich</a>. <br/>
+    Goudy Bookletter 1911 &amp; Sorts Mill Goudy via <a href="https://www.theleagueofmoveabletype.com">The League of Moveable Type</a>.
+>>>>>>> master
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
     <script src="/js/shred.js" charset="utf-8"></script>
