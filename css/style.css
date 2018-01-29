@@ -23,14 +23,11 @@ h1 {
 h2 {
   font-size: 1.2rem;
   font-weight: normal;
-<<<<<<< HEAD
   letter-spacing: -2px;
-=======
   text-align: center;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.7);
   margin: 0.618rem auto 1rem;
->>>>>>> master
 }
 
 h3 {
@@ -81,7 +78,6 @@ blockquote {
   position: relative;
 }
 
-<<<<<<< HEAD
 .editable,
 .secondEditable
  {
@@ -89,7 +85,7 @@ blockquote {
     margin: 20px 0 20px 0;
     padding: 20px;
     border: 1px solid #dbdbdb;
-=======
+ }
 .editable, .secondEditable {
   outline: none;
   margin: 1rem;
@@ -97,7 +93,6 @@ blockquote {
   border-radius: 4px;
   padding: 0.192rem 1.618rem;
   min-height: 300px;
->>>>>>> master
 }
 
 #columns {
