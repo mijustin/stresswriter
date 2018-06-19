@@ -26,7 +26,7 @@ $(document).ready(function() {
       $('.shredded-paper').remove()
       $('.shredder-holder').fadeOut(200, () => $(this).remove() )
 
-      $("<div class='editable' style='display: none;'></div>").insertAfter('h2')
+      $("<div class='editable' style='display: none;'></div>").insertAfter('blockquote')
       $('.editable').stop(true, true).fadeIn({ duration: 400, queue: false }).css('display', 'none').slideDown(400, () => {
         new MediumEditor('.editable')
       });
